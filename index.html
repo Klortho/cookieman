@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>sidecontent</title>
+    <title>cookieman</title>
     <link rel="stylesheet" type="text/css" href="demo.css">
     <link rel="stylesheet" type="text/css" href="sidecontent.css">
+    <link rel='stylesheet' type='text/css' href='cookieman.css'>
   </head>
 
   <body>
     <div id="header">
-      <h1>sidecontent</h1>
+      <h1>cookieman</h1>
     </div>
 
     <div id="maincontent">
@@ -17,21 +18,22 @@
         Based on the <a href='https://github.com/frustration/jQuery-Plugins'
         >sidecontent jQuery plugin</a>.
       </p>
+      </div>
     </div>
 
-    <div id='side1' title="Side 1" style='opacity: 0;'>
-      <h2>Side content 1</h2>
-      <p>This is the side content that you want to de-clutter from your page.
-        You can apply whatever CSS rules you like to this element, only the 
-        position and behaviour will be changed by the plugin.</p>
+    <div id='cookieform' title="Cookie 1" style='opacity: 0;'>
+      <h2>Cookie</h2>
+      <p>All of this content should be dynamically generated.</p>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"
       ></script> 
     <script src="sidecontent.js"></script>
+    <script src="cookieman.js"></script>
     <script>
-      $("#side1").sidecontent();
+      $('#cookieform').cookieman();
     </script>
+
 
   </body>
 </html>

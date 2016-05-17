@@ -1,0 +1,48 @@
+/* 
+  Styles for the sidecontent.  These were adapted from the jQuery sidecontent
+  plugin documentation:  http://www.stevefenton.co.uk/Content/Jquery-Side-Content/  
+*/
+
+.sidecontentpullout {
+  background-color: #c00;
+  color: white;
+  padding: 4px 3px;
+  -moz-border-radius-bottomleft: 1em;
+  -moz-border-radius-topleft: 1em;
+  -webkit-border-bottom-left-radius: 1em;
+  -webkit-border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1em;
+  font-size: 1.2em;
+  opacity: 1 !important;
+}
+
+.sidecontentpullout:hover {
+  background-color: #444444;
+  color: white;
+  opacity: 1 !important;
+}
+
+.sidecontent {
+    font-size: 1.2em;
+  background-color: black;
+  color: white;
+  -moz-border-radius-bottomleft: 1em;
+  -webkit-border-bottom-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  zoom: 1;
+  z-index: 10000 !important;
+}
+
+.sidecontent > div > div {
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+.sidecontent h2 { color: white; }
+.sidecontent a { color: white; display: block; margin: 0; padding: 2px 5px;}
+.sidecontent a:hover { background-color: #666;}
+
+.sidecontent, .sidecontentpullout { position: fixed !important; }
+
+.sctable td { border: none; padding-right: 5px;}

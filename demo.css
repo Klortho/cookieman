@@ -1,0 +1,31 @@
+/* Optional styles (not required by the plugins!) */  
+body {
+  font-family: "Century Gothic", "Apple Gothic", sans-serif;
+  font-size: 16px;
+  background: #CCC;
+  color: Black;
+  margin: 0;
+}
+
+h1 {
+  font-family: Cambria, Georgia, Times, “Times New Roman”, serif;
+  display: block;
+  width: 960px;
+  padding: 20px 0;
+  margin: 20px auto;
+  font-size: 3em;
+  font-weight: normal;
+}
+
+#header {
+  width: 100%;
+  background: #999;
+  color: #F2F0F0;
+}
+
+#maincontent {
+  width: 960px;
+  margin: 0 auto 20px auto;
+  padding: 0 20px 20px 20px;
+}
+
